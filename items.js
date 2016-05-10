@@ -321,7 +321,7 @@ function ItemDAO(database) {
 
     this.addReview = function(itemId, comment, name, stars, callback) {
         "use strict";
-        //this.db.collection('item').updateOne({ _id: itemId}, {$set:{ comment:comment, name:name, stars:stars, date:Date.now()})
+        
         /*
          * TODO-lab4
          *
